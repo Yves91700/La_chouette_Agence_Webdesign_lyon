@@ -46,6 +46,7 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    
 }
 
 .bloc-md {
@@ -438,6 +439,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 
 .mg-lg {
@@ -477,6 +479,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    
 }
 
 .icon-lg {
@@ -651,7 +654,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
+/*modifier*/
 }
 
 .container {
@@ -702,6 +706,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
 }
 
 h2 {
@@ -736,7 +741,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
+    /*modifier*/
 }
 
 .portfolio-thumb {
@@ -775,7 +781,8 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color: black!important;
+    background-color: #F3976C;
     /*modifier*/
 }
 
