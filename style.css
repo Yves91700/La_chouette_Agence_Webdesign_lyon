@@ -664,6 +664,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    
 }
 
 .hero-bloc-text-sub {
@@ -706,6 +707,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
     
 }
 
@@ -1048,5 +1050,28 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .hero-bloc-text{
+        text-align: center;
+    }
+    .tight-width-whitespace{
+        text-align: center;
+    }
+}
+@media (min-width:767px){
+    .hero-bloc-text2{
+        text-align: center;
+    }
+    .tight-width-whitespace2{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+@media (min-width:1200px){
+    .hero-bloc-text2{
+        padding-left: 20rem;
+    }
+    .tight-width-whitespace2{
+        padding-left: 20rem;
     }
 }
