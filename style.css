@@ -6,7 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.tangerine-background{
+    background-color: #F3976C;
+}
+.bloc-size{
+    width: 80%;
+    margin: auto;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -276,6 +282,7 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -318,7 +325,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: 16rem;
+    margin-right: -16px;
     float: right;
     z-index: 1;
 }
@@ -335,7 +342,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: aqua; /* modifier*/
+    background: #F3976C; /* modifier*/
 }
 
 .navbar-toggle {
@@ -344,7 +351,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: aqua!important; /* modifier*/
+    background: #F3976C!important; /* modifier*/
 }
 
 .navbar-toggle .icon-bar {
@@ -682,7 +689,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+    /* modif de  11 a 14px*/
 }
 
 .tight-width-whitespace {
@@ -744,6 +752,7 @@ h4 {
 
 .white {
     color: black!important;
+    font-size: 16px;
     /*modifier*/
 }
 
@@ -783,14 +792,13 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
-    background-color: #F3976C;
+    color: black!important;  
     /*modifier*/
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: black!important;
+    background: black;
+    color: #F3976C!important;
     /*modifier*/
 }
 
@@ -1037,6 +1045,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .row-no-gutters{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
     }
 }
 
