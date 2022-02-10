@@ -1059,6 +1059,9 @@ h4 {
         justify-content: space-between;
         text-align: center;
     }
+    .bloc-size{
+        margin-left: 40px;
+    }
 
 }
 
