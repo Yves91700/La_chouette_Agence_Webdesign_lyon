@@ -10,6 +10,7 @@ body {
     background-color: #F3976C;
     margin: auto;
 }
+
 .bloc-size{
     width: 80%;
     margin-left: 60px;
@@ -21,10 +22,8 @@ button {
     outline: none!important;
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
+
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -258,7 +257,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0, .6);
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -372,6 +371,7 @@ a:hover {
     z-index: 2;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -466,7 +466,8 @@ nav .caret {
 
 .btn-d,
 .btn-d:hover,
-.btn-d:focus {
+.btn-d:focus
+ {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
