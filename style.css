@@ -115,6 +115,8 @@ button {
     color: rgba(255, 255, 255, .9);
 }
 
+
+
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -141,7 +143,8 @@ button {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /*color: rgba(255, 255, 255, .6);*/
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -160,6 +163,24 @@ button {
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
+/*focus des icons page contact*/
+.d-bloc .a-btn:focus,
+.d-bloc .navbar a:focus,
+.d-bloc .navbar-brand:focus,
+.d-bloc a:focus .icon-sm,
+.d-bloc a:focus .icon-md,
+.d-bloc a:focus .icon-lg,
+.d-bloc a:focus .icon-xl,
+.d-bloc h1 a:focus,
+.d-bloc h2 a:focus,
+.d-bloc h3 a:focus,
+.d-bloc h4 a:focus,
+.d-bloc h5 a:focus,
+.d-bloc h6 a:focus,
+.d-bloc p a:focus{
+    border: 2px solid red;
+}
+
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -170,6 +191,11 @@ button {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
+.d-bloc .btn-wire,
+.d-bloc .btn-wire:focus{
+    border: 2px solid red; /* focus rajouter*/
+}
+
 
 .d-bloc .panel {
     color: rgba(0, 0, 0, .5);
@@ -177,6 +203,10 @@ button {
 
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
+}
+
+.d-bloc .panel button:focus{
+    border: 2px solid red ;
 }
 
 .d-bloc .panel icon {
@@ -195,10 +225,18 @@ button {
     color: rgba(0, 0, 0, 1);
 }
 
+.d-bloc .panel .a-btn:focus{
+    border: 2px solid blue; /*focus rajouter*/
+}
+
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
+}
+.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire:focus{
+    border: 2px solid blue; /*focus rajouter*/
 }
 
 .d-bloc .panel,
@@ -209,6 +247,11 @@ button {
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
+}
+.d-bloc .panel button:hover,
+.l-bloc button:focus{
+    border: 2px solid red ; /*focus rajouter bouton envoyer*/ 
+    
 }
 
 .l-bloc .icon-round,
@@ -259,6 +302,24 @@ button {
 .l-bloc p a:hover {
     color: rgb(0, 0, 0, .6);
 }
+.d-bloc .panel .a-btn:focus,
+.l-bloc .a-btn:focus,
+.l-bloc .navbar a:focus,
+.l-bloc .navbar-brand:focus,
+.l-bloc a:focus .icon-sm,
+.l-bloc a:focus .icon-md,
+.l-bloc a:focus .icon-lg,
+.l-bloc a:focus .icon-xl,
+.l-bloc h1 a:focus,
+.l-bloc h2 a:focus,
+.l-bloc h3 a:focus,
+.l-bloc h4 a:focus,
+.l-bloc h5 a:focus,
+.l-bloc h6 a:focus,
+.l-bloc p a:focus{
+    border: 2px solid red; /*focus rajouter*/
+
+}
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -270,6 +331,13 @@ button {
 .l-bloc .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
+}
+
+.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire:focus,
+.l-bloc .btn-wire,
+.l-bloc .btn-wire:focus{
+    border: 2px solid red; /* focus rajouter*/
 }
 
 .voffset {
@@ -309,7 +377,16 @@ button {
     font-weight: 600;
     line-height: 44px;
 }
+/* les focus*/
+.navbar-brand:focus{
+    background-color: #F3976C;
+}
 
+
+
+
+
+/*fin des focus*/
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
@@ -354,6 +431,9 @@ button {
 .navbar-toggle:hover {
     background: #F3976C!important; /* modifier*/
 }
+.navbar-toggle:focus{
+    border: 2px solid red; /*focus rajouter*/
+}
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
@@ -370,6 +450,7 @@ button {
     position: relative;
     z-index: 2;
 }
+
 
 
 @media (min-width: 768px) {
@@ -465,15 +546,19 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
-.btn-d:focus
+.btn-d:hover
+
  {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
 
+.btn-d:focus{
+    border: 2px solid red; /*focus separer du hover au dessus*/
+}
+
 button {
-    outline: none!important;
+    outline: none !important;
 }
 
 .btn-rd {
@@ -573,6 +658,9 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+}
+a[data-lightbox]:focus img{
+    border: 2px solid red; /* focus contour des images page accueil*/
 }
 
 #lightbox-modal {
@@ -715,6 +803,9 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+.cta-hero:focus{
+    border: 2px solid red;
 }
 
 .social {
