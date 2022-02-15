@@ -989,8 +989,20 @@ h4 {
         
     } 
 }
+@media (min-width:350px) and (max-width:500px){
+    a, .col-sm-6{
+        padding-left: 20px;
+    }
+}
+
+@media (min-width:500px) and (max-width:765px){
+    a, .col-sm-6{
+        padding-left: 40px;
+    }
+}
 
 @media (max-width: 767px) {
+    
     
     .page-container {
         overflow-x: hidden;
