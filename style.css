@@ -1142,8 +1142,6 @@ h4 {
     .tight-width-whitespace{
         text-align: center;
     }
-    
-
 }
 
 @media (max-width: 400px) {
@@ -1171,3 +1169,4 @@ h4 {
         padding-left: 20rem;
     }
 }
+
